@@ -1,0 +1,2 @@
+You are tasked with developing a Spark application that processes a DataFrame containing information about column rename operations. The application should handle incremental loads by 
+tracking changes to column names, ensuring that if a column name has been previously renamed, the original column name is used in the transformation history.
