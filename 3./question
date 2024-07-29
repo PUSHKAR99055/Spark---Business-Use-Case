@@ -1,0 +1,7 @@
+You are working with a large dataset of text documents in Apache Spark. Your task is to perform the following operations:
+
+    Load Data: Read text documents from a directory into a DataFrame.
+    Phrase Mining: Extract phrases from each document. For simplicity, let's say each phrase is a sequence of words. Count the occurrences of each phrase within each document.
+    Persist Data: Cache the intermediate results to speed up processing for iterative operations.
+    Aggregate Results: Combine the phrase counts from all documents to get global counts of phrases.
+    Snapshot: Create a snapshot of the global phrase counts at a specific point in time.
